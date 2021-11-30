@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnexus5x"
+    tools:context=".MainActivity_ar">
+
+
+    <TextView
+        android:id="@+id/tvEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="330dp"
+        android:layout_marginRight="330dp"
+        android:layout_marginBottom="587dp"
+        android:text="@string/english"
+        android:textColor="@color/font"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="english_main"/>
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDrugName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/drug_name_ar"
+                android:textColor="@color/font"
+                android:textSize="18sp" />
+
+            <TableLayout
+                android:id="@+id/layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="right">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/etDrugName"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/field"
+                            android:ems="10"
+                            android:hint="@string/hint_ar"
+                            android:importantForAutofill="no"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="3dp"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/etDrugName2"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/field"
+                            android:ems="10"
+                            android:hint="@string/hint_ar"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="3dp"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </TableRow>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:gravity="right">
+
+                        <EditText
+                            android:id="@+id/etDrugName3"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/field"
+                            android:ems="10"
+                            android:hint="@string/hint_ar"
+                            android:importantForAutofill="no"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="3dp"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <EditText
+                            android:id="@+id/etDrugName4"
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="18dp"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/field"
+                            android:ems="10"
+                            android:hint="@string/hint_ar"
+                            android:inputType="textPersonName"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="3dp"
+                            android:textSize="16sp"
+                            android:visibility="gone" />
+                    </TableRow>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/etDrugName5"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/field"
+                        android:ems="10"
+                        android:hint="@string/hint_ar"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/etDrugName6"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/field"
+                        android:ems="10"
+                        android:hint="@string/hint_ar"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right"
+                    android:gravity="right">
+
+                    <EditText
+                        android:id="@+id/etDrugName7"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/field"
+                        android:ems="10"
+                        android:hint="@string/hint_ar"
+                        android:importantForAutofill="no"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+
+                    <EditText
+                        android:id="@+id/etDrugName8"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="18dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/field"
+                        android:ems="10"
+                        android:hint="@string/hint_ar"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="3dp"
+                        android:textSize="16sp"
+                        android:visibility="gone" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/tvAddDrug"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="3dp"
+                android:onClick="onClickPlus"
+                android:text="@string/plus"
+                android:textColor="@color/font"
+                android:textSize="18sp"
+                android:gravity="right"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+
+                    <TextView
+                        android:id="@+id/tvAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/age"
+                        android:textColor="@color/font"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/shape_inside"
+                        android:entries="@array/age_ar" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+
+                    <TextView
+                        android:id="@+id/tvGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="@string/gender"
+                        android:textColor="@color/font"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/shape_inside"
+                        android:entries="@array/gender_ar" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layoutDirection="rtl">
+
+                    <TextView
+                        android:id="@+id/tvArea"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:text="@string/area"
+                        android:textColor="@color/font"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginRight="25dp"
+                        android:background="@drawable/shape_inside"
+                        android:entries="@array/area_ar" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btnDrugInfo"
+                android:layout_width="96dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_btn"
+                android:onClick="drugInformation"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/drug_info_ar"
+                android:textColor="@color/field" />
+
+            <Button
+                android:id="@+id/btnDrugInter"
+                android:layout_width="96dp"
+                android:layout_height="35dp"
+                android:background="@drawable/shape_btn"
+                android:onClick="drugInteraction"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="@string/drug_inter_ar"
+                android:textColor="@color/field" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

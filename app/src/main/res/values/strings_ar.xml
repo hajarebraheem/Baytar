@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="arabic">العربية</string>
+    <string name="drug_name_ar">اسم الدواء</string>
+    <string name="hint_ar">ادخل اسم الدواء</string>
+    <string name="age">العمر</string>
+    <string name="gender">الجنس</string>
+    <string name="area">المنطقة</string>
+    <string name="drug_info_ar">معلومات الدواء</string>
+    <string name="drug_inter_ar">تفاعلات الدواء</string>
+    <string name="finish_ar">انهاء</string>
+    <string name="drugs_inter_ar">تفاعل الدواء أ مع الدواء ب</string>
+    <string name="detect_ar">التفاعل الناتج</string>
+    <string name="reason_ar">السبب</string>
+
+    <string-array name="age_ar">
+        <item>شهور</item>
+        <item>١ - ٥</item>
+        <item>٦ - ١١</item>
+        <item>١٢ - ١٥</item>
+        <item>١٦ - ١٩</item>
+        <item>٢٠ - ٣٠</item>
+        <item>٣٠ - ٤٠</item>
+        <item>٤٠ - ٥٠</item>
+        <item>٥٠ - ٦٠</item>
+        <item>٦٠ - ٧٠</item>
+        <item>٧٠ - ٨٠</item>
+        <item>٨٠ - ٩٠</item>
+        <item>٩٠ - ١٠٠</item>
+        <item>١٠٠+</item>
+    </string-array>
+
+    <string-array name="gender_ar">
+        <item>ذكر</item>
+        <item>انثى</item>
+    </string-array>
+
+    <string-array name="area_ar">
+        <item>الرياض</item>
+        <item>القصيم</item>
+        <item>مكة المكرمة</item>
+        <item>المدينة المنورة</item>
+        <item>تبوك</item>
+        <item>الشرقية</item>
+        <item>عسير</item>
+        <item>نجران</item>
+        <item>الباحة</item>
+        <item>جيزان</item>
+        <item>الحدود الشمالية</item>
+        <item>الجوف</item>
+        <item>حائل</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Baytar</string>
+    <string name="drug_name">Drug Name :</string>
+    <string name="plus">+</string>
+    <string name="english">English</string>
+
+    <string-array name="age">
+        <item>---</item>
+        <item>months</item>
+        <item>1 - 5</item>
+        <item>6 - 11</item>
+        <item>12 - 15</item>
+        <item>16 - 19</item>
+        <item>20 - 30</item>
+        <item>30 - 40</item>
+        <item>40 - 50</item>
+        <item>50 - 60</item>
+        <item>60 - 70</item>
+        <item>70 - 80</item>
+        <item>80 - 90</item>
+        <item>90 - 100</item>
+        <item>100+</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>---</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="area">
+        <item>---</item>
+        <item>Riyadh</item>
+        <item>Qassim</item>
+        <item>Makkah</item>
+        <item>Madinah</item>
+        <item>Tabuk</item>
+        <item>Eastern Province</item>
+        <item>Asir</item>
+        <item>Najran</item>
+        <item>Bahah</item>
+        <item>Jizan</item>
+        <item>Northern Borders</item>
+        <item>Jawf</item>
+        <item>Hail</item>
+    </string-array>
+
+</resources>
